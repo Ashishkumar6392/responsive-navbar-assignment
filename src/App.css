@@ -1,0 +1,36 @@
+.page-content {
+  min-height: calc(100vh - 78px);
+  display: grid;
+  place-items: center;
+  padding: 48px 24px;
+  background: #f5f7f6;
+  text-align: center;
+}
+
+.hero-copy {
+  width: min(680px, 100%);
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #16834f;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.page-content h1 {
+  margin: 0 0 14px;
+  color: #202422;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1.08;
+}
+
+.page-content p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.7;
+}
